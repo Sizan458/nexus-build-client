@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0px;
+    margin: 0px;
+   
+    
+}
+/*remove the scrollbar from  browser*/
+::-webkit-scrollbar{
+    display: none;
+}
