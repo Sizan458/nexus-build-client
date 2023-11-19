@@ -6,6 +6,7 @@ import NavBar from "../NavBar/NavBar";
 import Home from "../Homepage/Home/Home";
 import Services from "../ServicePage/Services/Services";
 import About from "../AboutPage/About/About";
+import Servicess from "../Servicess/Servicess/Servicess";
 
 const Router = createBrowserRouter([
     {
@@ -26,6 +27,11 @@ const Router = createBrowserRouter([
             {
                 path:"/about",
                 element:<About/>
+            },
+            {
+                path:"/service/:id",
+                element:<Servicess/>,
+                loader:({params})=>fetch(`https://nexus-build-server.vercel.app/all-services/${params.id}`)
             }
         ]
     }

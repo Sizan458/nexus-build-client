@@ -3439,8 +3439,11 @@ __metadata:
     react-helmet: "npm:^6.1.0"
     react-helmet-async: "npm:^1.3.0"
     react-icons: "npm:^4.12.0"
+    react-lazy-load: "npm:^4.0.1"
+    react-lazyload: "npm:^3.2.0"
     react-marquee: "npm:^1.0.0"
     react-navi-helmet-async: "npm:^0.15.0"
+    react-parallax: "npm:^3.5.1"
     react-rating: "npm:^2.0.5"
     react-rating-stats: "npm:^0.1.4"
     react-responsive-carousel: "npm:^3.2.23"
@@ -3448,6 +3451,7 @@ __metadata:
     react-simple-star-rating: "npm:^5.1.7"
     react-tabs: "npm:^6.0.2"
     sort-by: "npm:^1.2.0"
+    swiper: "npm:^11.0.4"
     tailwindcss: "npm:^3.3.5"
     vite: "npm:^5.0.0"
   languageName: unknown
@@ -4001,6 +4005,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-lazy-load@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "react-lazy-load@npm:4.0.1"
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+  checksum: 8654951dddfc853b55c2909f347b0943926373aeaa349422ea7335f90ff1bab11ab6d428649d976c9a1f1376600124ab66ad67aa883d45659ab70e8a21df894d
+  languageName: node
+  linkType: hard
+
+"react-lazyload@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "react-lazyload@npm:3.2.0"
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    react-dom: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: 94ffa876aa582156f9cc1b068b43e64be2cd87996c5a93f575019f40e0beb43574ed7b2cdf252b751e089ff5ffb8203d974f51589ca154e0c7065fe6f4e3df4b
+  languageName: node
+  linkType: hard
+
 "react-marquee@npm:^1.0.0":
   version: 1.0.0
   resolution: "react-marquee@npm:1.0.0"
@@ -4024,6 +4048,16 @@ __metadata:
     react: ^16.8.0
     react-navi: ^0.14.0
   checksum: 1374e3b7e77f21a2a8bf6568d9745863bfb3e87c5074a276990c8cd139307913c7fb7ac4cb96c6215189b0caad7614c5a8fa1ef6d84bdd295b28b4e46d7251be
+  languageName: node
+  linkType: hard
+
+"react-parallax@npm:^3.5.1":
+  version: 3.5.1
+  resolution: "react-parallax@npm:3.5.1"
+  peerDependencies:
+    react: 16.x.x || 17.x.x || 18.x.x
+    react-dom: 16.x.x || 17.x.x || 18.x.x
+  checksum: 86d460d4d155166896139614ec46194a6584f90b8892791a9923098e2b1e3c39d33f333aa3571bd30ec2bc2a3db16a034659708aa16fbb82b551753477886284
   languageName: node
   linkType: hard
 
@@ -4664,6 +4698,13 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 6c4032340701a9950865f7ae8ef38578d8d7053f5e10518076e6554a9381fa91bd9c6850193695c141f32b21f979c985db07265a758867bac95de05f7d8aeb39
+  languageName: node
+  linkType: hard
+
+"swiper@npm:^11.0.4":
+  version: 11.0.4
+  resolution: "swiper@npm:11.0.4"
+  checksum: 1d9fd48353ae704d042aa951e5380f9473614bc85cfe216d329d61fe1bcd3585ed29c49a3d1617e7829ad4bfb37cb60dcb65b4181c7f428a2102e88e4ed0d871
   languageName: node
   linkType: hard
 

@@ -51,8 +51,11 @@ const RAW_RUNTIME_STATE =
           ["react-helmet", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:6.1.0"],\
           ["react-helmet-async", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:1.3.0"],\
           ["react-icons", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:4.12.0"],\
+          ["react-lazy-load", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:4.0.1"],\
+          ["react-lazyload", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:3.2.0"],\
           ["react-marquee", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:1.0.0"],\
           ["react-navi-helmet-async", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:0.15.0"],\
+          ["react-parallax", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:3.5.1"],\
           ["react-rating", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.0.5"],\
           ["react-rating-stats", "npm:0.1.4"],\
           ["react-responsive-carousel", "npm:3.2.23"],\
@@ -60,6 +63,7 @@ const RAW_RUNTIME_STATE =
           ["react-simple-star-rating", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:5.1.7"],\
           ["react-tabs", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:6.0.2"],\
           ["sort-by", "npm:1.2.0"],\
+          ["swiper", "npm:11.0.4"],\
           ["tailwindcss", "npm:3.3.5"],\
           ["vite", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:5.0.0"]\
         ],\
@@ -4194,8 +4198,11 @@ const RAW_RUNTIME_STATE =
           ["react-helmet", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:6.1.0"],\
           ["react-helmet-async", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:1.3.0"],\
           ["react-icons", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:4.12.0"],\
+          ["react-lazy-load", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:4.0.1"],\
+          ["react-lazyload", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:3.2.0"],\
           ["react-marquee", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:1.0.0"],\
           ["react-navi-helmet-async", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:0.15.0"],\
+          ["react-parallax", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:3.5.1"],\
           ["react-rating", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.0.5"],\
           ["react-rating-stats", "npm:0.1.4"],\
           ["react-responsive-carousel", "npm:3.2.23"],\
@@ -4203,6 +4210,7 @@ const RAW_RUNTIME_STATE =
           ["react-simple-star-rating", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:5.1.7"],\
           ["react-tabs", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:6.0.2"],\
           ["sort-by", "npm:1.2.0"],\
+          ["swiper", "npm:11.0.4"],\
           ["tailwindcss", "npm:3.3.5"],\
           ["vite", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:5.0.0"]\
         ],\
@@ -5005,6 +5013,58 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-lazy-load", [\
+      ["npm:4.0.1", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-lazy-load-npm-4.0.1-f61e94f720-10c0.zip/node_modules/react-lazy-load/",\
+        "packageDependencies": [\
+          ["react-lazy-load", "npm:4.0.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:4.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/react-lazy-load-virtual-54e6564830/3/Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-lazy-load-npm-4.0.1-f61e94f720-10c0.zip/node_modules/react-lazy-load/",\
+        "packageDependencies": [\
+          ["react-lazy-load", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:4.0.1"],\
+          ["@types/react", "npm:18.2.37"],\
+          ["@types/react-dom", "npm:18.2.15"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-lazyload", [\
+      ["npm:3.2.0", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-lazyload-npm-3.2.0-5a95ee4bd0-10c0.zip/node_modules/react-lazyload/",\
+        "packageDependencies": [\
+          ["react-lazyload", "npm:3.2.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:3.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-lazyload-virtual-9cf3d45320/3/Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-lazyload-npm-3.2.0-5a95ee4bd0-10c0.zip/node_modules/react-lazyload/",\
+        "packageDependencies": [\
+          ["react-lazyload", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:3.2.0"],\
+          ["@types/react", "npm:18.2.37"],\
+          ["@types/react-dom", "npm:18.2.15"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-marquee", [\
       ["npm:1.0.0", {\
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-marquee-npm-1.0.0-bce966b98f-10c0.zip/node_modules/react-marquee/",\
@@ -5059,6 +5119,32 @@ const RAW_RUNTIME_STATE =
           "@types/react",\
           "navi",\
           "react-navi",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-parallax", [\
+      ["npm:3.5.1", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-parallax-npm-3.5.1-feb7e846d3-10c0.zip/node_modules/react-parallax/",\
+        "packageDependencies": [\
+          ["react-parallax", "npm:3.5.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:3.5.1", {\
+        "packageLocation": "./.yarn/__virtual__/react-parallax-virtual-08fdea0784/3/Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-parallax-npm-3.5.1-feb7e846d3-10c0.zip/node_modules/react-parallax/",\
+        "packageDependencies": [\
+          ["react-parallax", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:3.5.1"],\
+          ["@types/react", "npm:18.2.37"],\
+          ["@types/react-dom", "npm:18.2.15"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
           "react"\
         ],\
         "linkType": "HARD"\
@@ -5750,6 +5836,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-10c0.zip/node_modules/supports-preserve-symlinks-flag/",\
         "packageDependencies": [\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["swiper", [\
+      ["npm:11.0.4", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/swiper-npm-11.0.4-4498d69360-10c0.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["swiper", "npm:11.0.4"]\
         ],\
         "linkType": "HARD"\
       }]\
