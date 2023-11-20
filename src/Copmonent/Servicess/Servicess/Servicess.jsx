@@ -63,7 +63,7 @@ const Servicess = () => {
 </div>
 
     <div className="card-actions justify-center m-2">
-      <Link to={`/order/${_id}`}>
+      <Link to="/order">
       <button className="btn btn-error text-xl w-[300px] md:w-[600px] lg:w-[800px] xl:980px  hover:cursor-pointer hover:text-rose-900" style={{background:color}}>Make Your Order</button>
       </Link>
     </div>

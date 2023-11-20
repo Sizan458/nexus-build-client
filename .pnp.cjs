@@ -40,6 +40,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:7.33.2"],\
           ["eslint-plugin-react-hooks", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:4.6.0"],\
           ["eslint-plugin-react-refresh", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:0.4.4"],\
+          ["formik", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.4.5"],\
           ["helmet", "npm:7.1.0"],\
           ["localforage", "npm:1.10.0"],\
           ["match-sorter", "npm:6.3.1"],\
@@ -1123,6 +1124,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/hoist-non-react-statics", [\
+      ["npm:3.3.5", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/@types-hoist-non-react-statics-npm-3.3.5-98b8d8e47b-10c0.zip/node_modules/@types/hoist-non-react-statics/",\
+        "packageDependencies": [\
+          ["@types/hoist-non-react-statics", "npm:3.3.5"],\
+          ["@types/react", "npm:18.2.37"],\
+          ["hoist-non-react-statics", "npm:3.3.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/lodash", [\
       ["npm:4.14.201", {\
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/@types-lodash-npm-4.14.201-0c286bbc0c-10c0.zip/node_modules/@types/lodash/",\
@@ -1947,6 +1959,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["deepmerge", [\
+      ["npm:2.2.1", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/deepmerge-npm-2.2.1-44c00cbffa-10c0.zip/node_modules/deepmerge/",\
+        "packageDependencies": [\
+          ["deepmerge", "npm:2.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["define-data-property", [\
       ["npm:1.1.1", {\
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/define-data-property-npm-1.1.1-2b5156d112-10c0.zip/node_modules/define-data-property/",\
@@ -2623,6 +2644,36 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["formik", [\
+      ["npm:2.4.5", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/formik-npm-2.4.5-d97cd46456-10c0.zip/node_modules/formik/",\
+        "packageDependencies": [\
+          ["formik", "npm:2.4.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.4.5", {\
+        "packageLocation": "./.yarn/__virtual__/formik-virtual-6ea441ff0a/3/Users/COMTECH/AppData/Local/Yarn/Berry/cache/formik-npm-2.4.5-d97cd46456-10c0.zip/node_modules/formik/",\
+        "packageDependencies": [\
+          ["formik", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.4.5"],\
+          ["@types/hoist-non-react-statics", "npm:3.3.5"],\
+          ["@types/react", "npm:18.2.37"],\
+          ["deepmerge", "npm:2.2.1"],\
+          ["hoist-non-react-statics", "npm:3.3.2"],\
+          ["lodash", "npm:4.17.21"],\
+          ["lodash-es", "npm:4.17.21"],\
+          ["react", "npm:18.2.0"],\
+          ["react-fast-compare", "npm:2.0.4"],\
+          ["tiny-warning", "npm:1.0.3"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["fraction.js", [\
       ["npm:4.3.7", {\
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/fraction.js-npm-4.3.7-c2c7e95a8e-10c0.zip/node_modules/fraction.js/",\
@@ -2933,6 +2984,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/hoist-non-react-statics-npm-2.5.5-e15c7ba611-10c0.zip/node_modules/hoist-non-react-statics/",\
         "packageDependencies": [\
           ["hoist-non-react-statics", "npm:2.5.5"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:3.3.2", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/hoist-non-react-statics-npm-3.3.2-e7b709e6c1-10c0.zip/node_modules/hoist-non-react-statics/",\
+        "packageDependencies": [\
+          ["hoist-non-react-statics", "npm:3.3.2"],\
+          ["react-is", "npm:16.13.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3872,6 +3931,24 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lodash", [\
+      ["npm:4.17.21", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/lodash-npm-4.17.21-6382451519-10c0.zip/node_modules/lodash/",\
+        "packageDependencies": [\
+          ["lodash", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash-es", [\
+      ["npm:4.17.21", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/lodash-es-npm-4.17.21-b45832dfce-10c0.zip/node_modules/lodash-es/",\
+        "packageDependencies": [\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lodash.debounce", [\
       ["npm:4.0.8", {\
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/lodash.debounce-npm-4.0.8-f1d6e09799-10c0.zip/node_modules/lodash.debounce/",\
@@ -4187,6 +4264,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:7.33.2"],\
           ["eslint-plugin-react-hooks", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:4.6.0"],\
           ["eslint-plugin-react-refresh", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:0.4.4"],\
+          ["formik", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.4.5"],\
           ["helmet", "npm:7.1.0"],\
           ["localforage", "npm:1.10.0"],\
           ["match-sorter", "npm:6.3.1"],\
@@ -5959,6 +6037,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["tiny-warning", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/tiny-warning-npm-1.0.3-750b7a07c4-10c0.zip/node_modules/tiny-warning/",\
+        "packageDependencies": [\
+          ["tiny-warning", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["to-fast-properties", [\
       ["npm:2.0.0", {\
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/to-fast-properties-npm-2.0.0-0dc60cc481-10c0.zip/node_modules/to-fast-properties/",\
@@ -5983,6 +6070,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/ts-interface-checker-npm-0.1.13-0c7b064494-10c0.zip/node_modules/ts-interface-checker/",\
         "packageDependencies": [\
           ["ts-interface-checker", "npm:0.1.13"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tslib", [\
+      ["npm:2.6.2", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/tslib-npm-2.6.2-4fc8c068d9-10c0.zip/node_modules/tslib/",\
+        "packageDependencies": [\
+          ["tslib", "npm:2.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
