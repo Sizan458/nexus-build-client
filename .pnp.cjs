@@ -44,6 +44,7 @@ const RAW_RUNTIME_STATE =
           ["formik", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.4.5"],\
           ["helmet", "npm:7.1.0"],\
           ["localforage", "npm:1.10.0"],\
+          ["lottie-react", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.4.0"],\
           ["match-sorter", "npm:6.3.1"],\
           ["postcss", "npm:8.4.31"],\
           ["query-string", "npm:8.1.0"],\
@@ -65,6 +66,7 @@ const RAW_RUNTIME_STATE =
           ["react-simple-star-rating", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:5.1.7"],\
           ["react-tabs", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:6.0.2"],\
           ["sort-by", "npm:1.2.0"],\
+          ["sweetalert", "npm:2.1.2"],\
           ["swiper", "npm:11.0.4"],\
           ["tailwindcss", "npm:3.3.5"],\
           ["vite", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:5.0.0"]\
@@ -3370,6 +3372,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["es6-object-assign", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/es6-object-assign-npm-1.1.0-0565318480-10c0.zip/node_modules/es6-object-assign/",\
+        "packageDependencies": [\
+          ["es6-object-assign", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["esbuild", [\
       ["npm:0.19.5", {\
         "packageLocation": "./.yarn/unplugged/esbuild-npm-0.19.5-107ce8536d/node_modules/esbuild/",\
@@ -5249,6 +5260,42 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lottie-react", [\
+      ["npm:2.4.0", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/lottie-react-npm-2.4.0-d4d95c55aa-10c0.zip/node_modules/lottie-react/",\
+        "packageDependencies": [\
+          ["lottie-react", "npm:2.4.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.4.0", {\
+        "packageLocation": "./.yarn/__virtual__/lottie-react-virtual-b4f6bfb0a1/3/Users/COMTECH/AppData/Local/Yarn/Berry/cache/lottie-react-npm-2.4.0-d4d95c55aa-10c0.zip/node_modules/lottie-react/",\
+        "packageDependencies": [\
+          ["lottie-react", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.4.0"],\
+          ["@types/react", "npm:18.2.37"],\
+          ["@types/react-dom", "npm:18.2.15"],\
+          ["lottie-web", "npm:5.12.2"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lottie-web", [\
+      ["npm:5.12.2", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/lottie-web-npm-5.12.2-942dc9e22a-10c0.zip/node_modules/lottie-web/",\
+        "packageDependencies": [\
+          ["lottie-web", "npm:5.12.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lru-cache", [\
       ["npm:10.0.2", {\
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/lru-cache-npm-10.0.2-fcff47e16f-10c0.zip/node_modules/lru-cache/",\
@@ -5531,6 +5578,7 @@ const RAW_RUNTIME_STATE =
           ["formik", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.4.5"],\
           ["helmet", "npm:7.1.0"],\
           ["localforage", "npm:1.10.0"],\
+          ["lottie-react", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:2.4.0"],\
           ["match-sorter", "npm:6.3.1"],\
           ["postcss", "npm:8.4.31"],\
           ["query-string", "npm:8.1.0"],\
@@ -5552,6 +5600,7 @@ const RAW_RUNTIME_STATE =
           ["react-simple-star-rating", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:5.1.7"],\
           ["react-tabs", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:6.0.2"],\
           ["sort-by", "npm:1.2.0"],\
+          ["sweetalert", "npm:2.1.2"],\
           ["swiper", "npm:11.0.4"],\
           ["tailwindcss", "npm:3.3.5"],\
           ["vite", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:5.0.0"]\
@@ -6059,6 +6108,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/proc-log-npm-3.0.0-a8c21c2f0f-10c0.zip/node_modules/proc-log/",\
         "packageDependencies": [\
           ["proc-log", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["promise-polyfill", [\
+      ["npm:6.1.0", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/promise-polyfill-npm-6.1.0-74f42c423b-10c0.zip/node_modules/promise-polyfill/",\
+        "packageDependencies": [\
+          ["promise-polyfill", "npm:6.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7240,6 +7298,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-10c0.zip/node_modules/supports-preserve-symlinks-flag/",\
         "packageDependencies": [\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sweetalert", [\
+      ["npm:2.1.2", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/sweetalert-npm-2.1.2-084b48d09c-10c0.zip/node_modules/sweetalert/",\
+        "packageDependencies": [\
+          ["sweetalert", "npm:2.1.2"],\
+          ["es6-object-assign", "npm:1.1.0"],\
+          ["promise-polyfill", "npm:6.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\

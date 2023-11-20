@@ -14,6 +14,12 @@ const NavBar = () => {
    <li>
   <NavLink to='/about' className="tab m-1 tab-lifted tab-active  text-black">About</NavLink>
 </li>
+   <li>
+  <NavLink to='/register' className="tab m-1 tab-lifted tab-active  text-black">Register</NavLink>
+</li>
+   <li>
+  <NavLink to='/login' className="tab m-1 tab-lifted tab-active  text-black">Login</NavLink>
+</li>
 
   </>
   const {changeTheme,mode} =DarkMode();

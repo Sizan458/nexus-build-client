@@ -8,6 +8,8 @@ import Services from "../ServicePage/Services/Services";
 import About from "../AboutPage/About/About";
 import Servicess from "../Servicess/Servicess/Servicess";
 import Order from "../Orderpage/Order/Order";
+import Register from "../Registerpage/Register/Register";
+import Login from "../LoginPage/Login/Login";
 
 const Router = createBrowserRouter([
     {
@@ -37,6 +39,14 @@ const Router = createBrowserRouter([
             {
               path:"/order" ,
                element:<Order/>
+            },
+            {
+                path:"/register",
+                element:<Register/>
+            },
+            {
+                path:"/login",
+                element:<Login/>
             }
         ]
     }
