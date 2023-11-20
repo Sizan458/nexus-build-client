@@ -22,7 +22,7 @@ const Login = () => {
     const email= from.email.value;
     const password = from.password.value;
     const user ={email,password}
-    console.log(user);
+   
      
       //reset error message & success message
       setLogError('');

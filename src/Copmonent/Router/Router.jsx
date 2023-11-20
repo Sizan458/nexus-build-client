@@ -10,6 +10,7 @@ import Servicess from "../Servicess/Servicess/Servicess";
 import Order from "../Orderpage/Order/Order";
 import Register from "../Registerpage/Register/Register";
 import Login from "../LoginPage/Login/Login";
+import PrivateRoute from "../Hooks/PrivateRoute/PrivateRoute";
 
 const Router = createBrowserRouter([
     {
@@ -33,12 +34,12 @@ const Router = createBrowserRouter([
             },
             {
                 path:"/service/:id",
-                element:<Servicess/>,
+                element:<PrivateRoute><Servicess/></PrivateRoute>,
                 loader:({params})=>fetch(`https://nexus-build-server.vercel.app/all-services/${params.id}`)
             },
             {
               path:"/order" ,
-               element:<Order/>
+               element:<PrivateRoute><Order/></PrivateRoute>
             },
             {
                 path:"/register",
