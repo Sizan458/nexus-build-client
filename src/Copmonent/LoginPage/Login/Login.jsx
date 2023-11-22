@@ -1,17 +1,20 @@
 import Lottie from "lottie-react";
 import loginJson from "../../../assets/login.json"
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 
 import { AiOutlineGoogle } from "react-icons/ai";
 import swal from 'sweetalert';
 import { AuthContext } from "../../Hooks/AutthProvider/AuthProvider";
-
+import { loadCaptchaEnginge, LoadCanvasTemplate,  validateCaptcha } from 'react-simple-captcha';
+import useAxios from "../../Hooks/useAxios/useAxios";
 const Login = () => {
-     
+     const axios =useAxios()
   const [see,setSee]=useState(false);
   const[logError,setLogError]=useState('');
   const[success, setSuccess]=useState('');
+  const  capthaRef=useRef(null);
+  const [disable, setDisable]=useState(true);
   //page reload function
   const location=useLocation()
   const navigate  =useNavigate()
@@ -22,7 +25,7 @@ const Login = () => {
     const email= from.email.value;
     const password = from.password.value;
     const user ={email,password}
-   
+     
      
       //reset error message & success message
       setLogError('');
@@ -45,7 +48,12 @@ const Login = () => {
     googleSignIn()
     .then(result=>{
        console.log(result.user)
-      
+       //send user  database
+       const useInfo = {
+            email: result.user?.email,
+            name: result.user?.displayName
+       }
+       axios.post('/user',useInfo)
        //if successful login
        swal("Good job!", "You are successfully registered", "success");
         // navigate to page after successful login
@@ -58,6 +66,19 @@ const Login = () => {
       return 
     })
   }
+
+  //captcha
+  useEffect(()=>{
+    loadCaptchaEnginge(6); 
+  },[])
+  const handleValidate=()=>{
+    const value = capthaRef.current.value
+    if(validateCaptcha(user_captcha_value)==true){
+         setDisable(false)
+    }
+  }
+
+  
     return (
         <div className="w-[97%] mx-auto m-2 ">
            <div className=" bg-purple-300   dark:bg-indigo-300  dark:rounded-lg  lg:w-[90%] lg:mx-auto" >
@@ -93,10 +114,23 @@ const Login = () => {
           <span className="text-xm  mt-1 ml-[80px]"  onClick={()=>setSee(!see)}>Show password</span>
           </div>
         </div>
+        <div className="form-control">
+          <label className="label">
+          <LoadCanvasTemplate />
+          </label>
+          <input type="text" ref={capthaRef} placeholder="Type the captcha above" name="" className="input input-bordered"  required/>
+         <div>
+         <button onClick={handleValidate} className="btn btn-outline btn-secondary btn-sm">validate</button>
+         </div>
+        </div>
         <div className="form-control mt-6">
-        <button className="btn btn-outline btn-info text-xl font-bold">Login</button>
+       <div>
+       <button   disabled={disable} className="btn btn-outline btn-info text-xl font-bold">Login</button>
+       </div>
        
-        <button className="btn btn-outline btn-accent text-4xl font-bold mt-4" onClick={handleGoogle}><AiOutlineGoogle></AiOutlineGoogle></button>
+        <div>
+        <button onClick={handleGoogle} className="btn btn-outline btn-accent text-4xl font-bold mt-4" ><AiOutlineGoogle></AiOutlineGoogle></button>
+        </div>
        
         <div>
             <p className="text-xl font-bold text-black mt-2 text-center">Do not  have an account <Link to='/register' className="text-rose-700">Register</Link></p>

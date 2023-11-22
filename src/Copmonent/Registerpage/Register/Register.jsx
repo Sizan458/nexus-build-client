@@ -4,7 +4,9 @@ import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import swal from 'sweetalert';
 import { AuthContext } from "../../Hooks/AutthProvider/AuthProvider";
+import useAxios from "../../Hooks/useAxios/useAxios";
 const Register = () => {
+  const axios =useAxios()
   const [see,setSee]=useState(false);
   const{userEmail}=useContext(AuthContext);
   const handleRegister =e =>{
@@ -32,7 +34,8 @@ const Register = () => {
     userEmail(email, password)
     .then(result =>{console.log(result)})
     .catch(err =>{console.log(err)});
-    
+    //send user info  to database
+     axios.post('/user',user)
    }
     return (
         <div className="w-[90%] mx-auto mt-2">

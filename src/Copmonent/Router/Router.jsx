@@ -11,6 +11,10 @@ import Order from "../Orderpage/Order/Order";
 import Register from "../Registerpage/Register/Register";
 import Login from "../LoginPage/Login/Login";
 import PrivateRoute from "../Hooks/PrivateRoute/PrivateRoute";
+import DashBoard from "../DashBoard/DashBoard";
+import Cart from "../DashBoardPage/Cart/Cart";
+import Review from "../DashBoardPage/Review/Review";
+import Payment from "../DashBoardPage/Payment/Payment";
 
 const Router = createBrowserRouter([
     {
@@ -50,7 +54,26 @@ const Router = createBrowserRouter([
                 element:<Login/>
             }
         ]
+    },
+    {
+        path:"dashboard",
+        element:<DashBoard/>,
+        children:[
+            {
+                path:"cart",
+                element:<Cart/>
+            },
+            {
+           path:"review",
+           element:<Review></Review>
+            },
+            {
+            path:"payment",
+            element:<Payment/>
+            }
+        ]
     }
+    
 ])
 
 export default Router;

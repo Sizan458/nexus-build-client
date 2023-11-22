@@ -10,7 +10,7 @@ const NavBar = () => {
   const{user,logOut}=useContext(AuthContext)
    //log out the user
    const handleLogOut = () => {
-    logOut();
+logOut()
   }
   const menu =<>
    <li  >
@@ -27,6 +27,12 @@ const NavBar = () => {
 </li>
    <li>
   <NavLink to='/login' className="tab m-1 tab-lifted tab-active  text-black">Login</NavLink>
+</li>
+   <li>
+  <NavLink to='/dashboard/cart' className="tab m-1 tab-lifted tab-active  text-black"><div className="indicator">
+  <span className="indicator-item badge badge-secondary">99+</span> 
+  <button className="btn">inbox</button>
+</div></NavLink>
 </li>
 
   </>
@@ -67,6 +73,7 @@ const NavBar = () => {
     </label>
     <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
     <li><button className="btn btn-error btn-sm"  onClick={handleLogOut}>Logout</button></li>
+    
     </ul>
   </div></button>
 </div>

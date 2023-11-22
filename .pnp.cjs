@@ -63,6 +63,7 @@ const RAW_RUNTIME_STATE =
           ["react-rating-stats", "npm:0.1.4"],\
           ["react-responsive-carousel", "npm:3.2.23"],\
           ["react-router-dom", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:6.19.0"],\
+          ["react-simple-captcha", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:9.3.0"],\
           ["react-simple-star-rating", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:5.1.7"],\
           ["react-tabs", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:6.0.2"],\
           ["sort-by", "npm:1.2.0"],\
@@ -3205,6 +3206,54 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["dom-serializer", [\
+      ["npm:0.2.2", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/dom-serializer-npm-0.2.2-2e24969c0e-10c0.zip/node_modules/dom-serializer/",\
+        "packageDependencies": [\
+          ["dom-serializer", "npm:0.2.2"],\
+          ["domelementtype", "npm:2.3.0"],\
+          ["entities", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["domelementtype", [\
+      ["npm:1.3.1", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/domelementtype-npm-1.3.1-87c4b5f9f4-10c0.zip/node_modules/domelementtype/",\
+        "packageDependencies": [\
+          ["domelementtype", "npm:1.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.3.0", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/domelementtype-npm-2.3.0-02de7cbfba-10c0.zip/node_modules/domelementtype/",\
+        "packageDependencies": [\
+          ["domelementtype", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["domhandler", [\
+      ["npm:2.4.2", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/domhandler-npm-2.4.2-497ea9cea1-10c0.zip/node_modules/domhandler/",\
+        "packageDependencies": [\
+          ["domhandler", "npm:2.4.2"],\
+          ["domelementtype", "npm:1.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["domutils", [\
+      ["npm:1.7.0", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/domutils-npm-1.7.0-7a1529fcfc-10c0.zip/node_modules/domutils/",\
+        "packageDependencies": [\
+          ["domutils", "npm:1.7.0"],\
+          ["dom-serializer", "npm:0.2.2"],\
+          ["domelementtype", "npm:1.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["eastasianwidth", [\
       ["npm:0.2.0", {\
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/eastasianwidth-npm-0.2.0-c37eb16bd1-10c0.zip/node_modules/eastasianwidth/",\
@@ -3245,6 +3294,22 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["encoding", "npm:0.1.13"],\
           ["iconv-lite", "npm:0.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["entities", [\
+      ["npm:1.1.2", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/entities-npm-1.1.2-78e77a4b6d-10c0.zip/node_modules/entities/",\
+        "packageDependencies": [\
+          ["entities", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/entities-npm-2.2.0-0fc8d5b2f7-10c0.zip/node_modules/entities/",\
+        "packageDependencies": [\
+          ["entities", "npm:2.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4223,6 +4288,21 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["hoist-non-react-statics", "npm:3.3.2"],\
           ["react-is", "npm:16.13.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["htmlparser2", [\
+      ["npm:3.10.1", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/htmlparser2-npm-3.10.1-1bc462e640-10c0.zip/node_modules/htmlparser2/",\
+        "packageDependencies": [\
+          ["htmlparser2", "npm:3.10.1"],\
+          ["domelementtype", "npm:1.3.1"],\
+          ["domhandler", "npm:2.4.2"],\
+          ["domutils", "npm:1.7.0"],\
+          ["entities", "npm:1.1.2"],\
+          ["inherits", "npm:2.0.4"],\
+          ["readable-stream", "npm:3.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5597,6 +5677,7 @@ const RAW_RUNTIME_STATE =
           ["react-rating-stats", "npm:0.1.4"],\
           ["react-responsive-carousel", "npm:3.2.23"],\
           ["react-router-dom", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:6.19.0"],\
+          ["react-simple-captcha", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:9.3.0"],\
           ["react-simple-star-rating", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:5.1.7"],\
           ["react-tabs", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:6.0.2"],\
           ["sort-by", "npm:1.2.0"],\
@@ -6399,6 +6480,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-html-parser", [\
+      ["npm:2.0.2", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-html-parser-npm-2.0.2-edd77c71ef-10c0.zip/node_modules/react-html-parser/",\
+        "packageDependencies": [\
+          ["react-html-parser", "npm:2.0.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:d438445655d940d708f9040fc18f79f3b82518e6d46085c2bb2ca04000b2db807153ef796ed0bfeb930a6cb8fa2f390373b8469b05aa0f78389e395c58943248#npm:2.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/react-html-parser-virtual-456a9d04c3/3/Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-html-parser-npm-2.0.2-edd77c71ef-10c0.zip/node_modules/react-html-parser/",\
+        "packageDependencies": [\
+          ["react-html-parser", "virtual:d438445655d940d708f9040fc18f79f3b82518e6d46085c2bb2ca04000b2db807153ef796ed0bfeb930a6cb8fa2f390373b8469b05aa0f78389e395c58943248#npm:2.0.2"],\
+          ["@types/react", "npm:18.2.37"],\
+          ["htmlparser2", "npm:3.10.1"],\
+          ["react", "npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-icons", [\
       ["npm:4.12.0", {\
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-icons-npm-4.12.0-8fe2109eaf-10c0.zip/node_modules/react-icons/",\
@@ -6727,6 +6831,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-simple-captcha", [\
+      ["npm:9.3.0", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-simple-captcha-npm-9.3.0-d01b77bd81-10c0.zip/node_modules/react-simple-captcha/",\
+        "packageDependencies": [\
+          ["react-simple-captcha", "npm:9.3.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:9.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-simple-captcha-virtual-d438445655/3/Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-simple-captcha-npm-9.3.0-d01b77bd81-10c0.zip/node_modules/react-simple-captcha/",\
+        "packageDependencies": [\
+          ["react-simple-captcha", "virtual:9b28c0c444dbd7b6a9fcd449474eca6b44183ad2581df3f2ba2777aeb8e4bfb00fc25898340c266ad2befd49a2196bfc127173d5d635fe9f4d79525317eb2c37#npm:9.3.0"],\
+          ["@types/react", "npm:18.2.37"],\
+          ["react", "npm:18.2.0"],\
+          ["react-html-parser", "virtual:d438445655d940d708f9040fc18f79f3b82518e6d46085c2bb2ca04000b2db807153ef796ed0bfeb930a6cb8fa2f390373b8469b05aa0f78389e395c58943248#npm:2.0.2"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-simple-star-rating", [\
       ["npm:5.1.7", {\
         "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/react-simple-star-rating-npm-5.1.7-523fe5994f-10c0.zip/node_modules/react-simple-star-rating/",\
@@ -6783,6 +6910,18 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["read-cache", "npm:1.0.0"],\
           ["pify", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["readable-stream", [\
+      ["npm:3.6.2", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/readable-stream-npm-3.6.2-d2a6069158-10c0.zip/node_modules/readable-stream/",\
+        "packageDependencies": [\
+          ["readable-stream", "npm:3.6.2"],\
+          ["inherits", "npm:2.0.4"],\
+          ["string_decoder", "npm:1.3.0"],\
+          ["util-deprecate", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7228,6 +7367,16 @@ const RAW_RUNTIME_STATE =
           ["call-bind", "npm:1.0.5"],\
           ["define-properties", "npm:1.2.1"],\
           ["es-abstract", "npm:1.22.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["string_decoder", [\
+      ["npm:1.3.0", {\
+        "packageLocation": "../../Users/COMTECH/AppData/Local/Yarn/Berry/cache/string_decoder-npm-1.3.0-2422117fd0-10c0.zip/node_modules/string_decoder/",\
+        "packageDependencies": [\
+          ["string_decoder", "npm:1.3.0"],\
+          ["safe-buffer", "npm:5.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
